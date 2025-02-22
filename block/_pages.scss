@@ -1,0 +1,45 @@
+.pages__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333333;
+}
+.site_pages__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    .box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        p{
+            max-width: 600px;
+        }
+        .gallery{
+            display: flex;
+
+        }
+        .img__wrapper{
+            img{
+                max-width: 300px;
+                max-height: 300px;
+            }
+            width: 400px;
+            height: 400px;
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .boxxy{
+                padding: 20px;
+                background: #E4E2D3;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

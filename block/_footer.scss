@@ -1,0 +1,28 @@
+.footer__wrapper{
+    background: #E4E2D3;
+    display: flex;
+    flex-direction: column;
+    .content{
+        padding: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .box:first-child{
+            width: 500px;
+        }
+        .box:nth-child(2){
+            display: flex;
+            justify-content: space-evenly;
+            gap: 40px;
+            .content1{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+    }
+    .salomxayr{
+        padding: 100px;
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Libre Baskerville";
+}
+
+body {
+  background: #efeee8;
+}
+
+.facts__wrapper {
+  width: 70%;
+  margin: 100px auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.facts__wrapper .box:first-child img {
+  max-width: 500px;
+  max-height: 600px;
+}
+.facts__wrapper .box:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  color: #333333;
+}
+.facts__wrapper .box:nth-child(2) .content {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 40px;
+  color: #333333;
+}
+.facts__wrapper .box:nth-child(2) h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.facts__wrapper .box:nth-child(2) button {
+  width: 215px;
+  height: 48px;
+  background: #333333;
+  border-radius: 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__wrapper {
+  background: #E4E2D3;
+  display: flex;
+  flex-direction: column;
+}
+.footer__wrapper .content {
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__wrapper .content .box:first-child {
+  width: 500px;
+}
+.footer__wrapper .content .box:nth-child(2) {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.footer__wrapper .content .box:nth-child(2) .content1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer__wrapper .salomxayr {
+  padding: 100px;
+  padding-bottom: 50px;
+}
+
+nav {
+  height: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #222222;
+}
+nav .logo {
+  display: flex;
+  gap: 15px;
+}
+nav .wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+nav .wrapper .links {
+  margin-right: 20px;
+  padding-right: 20px;
+  display: flex;
+  gap: 20px;
+  border-right: #222222 2px solid;
+}
+nav .wrapper .get {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+nav .wrapper .get hr {
+  height: 1px;
+  background: #000;
+  width: 45px;
+}
+
+.intro__wrapper {
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.intro__wrapper h1 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 74px;
+  text-align: center;
+  color: #333333;
+}
+.intro__wrapper p {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  color: #333333;
+}
+.intro__wrapper button {
+  height: 60px;
+  width: 200px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background: #333333;
+  border-radius: 0px;
+  color: white;
+}
+
+.pages__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #333333;
+}
+
+.site_pages__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.site_pages__wrapper .box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.site_pages__wrapper .box p {
+  max-width: 600px;
+}
+.site_pages__wrapper .box .gallery {
+  display: flex;
+}
+.site_pages__wrapper .box .img__wrapper {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.site_pages__wrapper .box .img__wrapper img {
+  max-width: 300px;
+  max-height: 300px;
+}
+.site_pages__wrapper .box .img__wrapper .boxxy {
+  padding: 20px;
+  background: #E4E2D3;
+  display: flex;
+  flex-direction: column;
+}
+
+.question__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.question__wrapper .inputs {
+  padding-left: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.question__wrapper .inputs h1 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333333;
+}
+.question__wrapper .inputs .input {
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #333333;
+  outline: none;
+  background-color: transparent;
+}
+.question__wrapper .inputs .button {
+  width: 100%;
+  margin-top: 20px;
+  border: 0;
+  height: 50px;
+  background: #333333;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
